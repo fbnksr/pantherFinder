@@ -236,9 +236,9 @@
                 <div class="form-group">
                   <input type="text" class="form-control input-lg" name="last_name" placeholder="Last name" required>
                 </div>
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <input type="text" class="form-control input-lg" name="student_id" placeholder="Panther ID" required>
-                </div>
+                </div> -->
                 <div class="form-group">
                   <input type="text" class="form-control input-lg" name="email" placeholder="Email" required>
                 </div>

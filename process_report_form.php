@@ -4,20 +4,19 @@ require_once 'protect.php';
 
 $first_name = $_POST['first_name'];
 $last_name = $_POST['last_name'];
-$student_id = $_POST['student_id'];
+// $student_id = $_POST['student_id'];
 $email = $_POST['email'];
 $item_name = $_POST['item_name'];
 $item_description = $_POST['item_description'];
 $date_reported = time();
 
-if (empty($first_name) || empty($last_name) || empty($student_id) || empty($email) || empty($item_name) || empty($item_description)){
+if (empty($first_name) || empty($last_name) || empty($email) || empty($item_name) || empty($item_description)){
 	header("Location: ../Panther Finder/index.php?error=empty");
 	exit();
 } else {
 	$sql = 'INSERT INTO reports
 	(first_name,
 	last_name,
-	student_id,
 	email,
 	item_name,
 	item_description,
@@ -25,7 +24,6 @@ if (empty($first_name) || empty($last_name) || empty($student_id) || empty($emai
 		VALUES
 	("' . $first_name . '",
 	 "' . $last_name . '",
-	 "' . $student_id . '",
 	 "' . $email . '",
 	 "' . $item_name . '",
 	 "' . $item_description . '",

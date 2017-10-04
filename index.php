@@ -82,7 +82,7 @@
            <hr class='star-primary'>
            <div id='body_database'>
             <div id='turn_in_form'>
-              <form method='post' action='process_turn_in_form.php'>
+              <form method='post' action='process-turn-in-form.php'>
               <fieldset>
               <div class='form-group'>
                 <input type='text' class='form-control input-lg' name='item_name' id='item_name' placeholder='Item name' required>
@@ -155,7 +155,7 @@
 							</script>
             </table>
 
-            <form method="post" action="process_claim_form.php">
+            <form method="post" action="process-claim-form.php">
               <fieldset>
               <div class='form-group'>
                 <input type='text' class='form-control' name='student_first_name' placeholder='First name' required>
@@ -204,7 +204,7 @@
               <hr class="star-primary">
               <div>
                <div>
-                <form method="post" action="process_report_form.php">
+                <form method="post" action="process-report-form.php">
                 <fieldset>
                 <div class="form-group">
                   <input type="text" class="form-control input-lg" name="first_name" placeholder="First name" required>

@@ -141,7 +141,7 @@
               </thead>
               <tbody>
                   <?php
-										include 'table.php';
+										include 'search-table.php';
                   ?>
               </tbody>
 							<script>

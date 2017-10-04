@@ -1,4 +1,4 @@
-parkviewhallhtml {
+html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -6493,7 +6493,7 @@ button.close {
 }
 
 .navbar-brand {
-    padding: 10px;
+    padding: 5px 0px 0px 5px;
 }
 
 .btn:active {
@@ -6808,7 +6808,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-    color: #fed136;
+    color: #e4af01;
 }
 
 .navbar-default .navbar-brand:hover,
